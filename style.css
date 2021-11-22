@@ -1,0 +1,652 @@
+/********** COMMON **********/
+/****************************/
+
+html,
+body {
+  padding: 0%;
+  margin: 0%;
+  
+}
+
+/********* HEADER ***********/
+/****************************/
+
+.header {
+  width: 100%;
+}
+
+.header .navbar {
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #009000;
+  display: flex;
+  font-family: Major Mono Display;
+}
+
+.header .navbar .logo {
+  color: white;
+  margin: 0;
+  padding: 10px 0 10px 18px;
+  font-size: 30px;
+  /* display: flex; */
+}
+
+.span h3 {
+  font-weight: 500;
+}
+
+.header .first img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+/***************************/
+/* MEDIA SCREEN FOR HEADER */
+/***************************/
+
+@media screen and (max-width: 1400px) {
+  .header .navbar .logo {
+    margin: 0;
+    padding: 10px 0 10px 18px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header .navbar .logo {
+    margin: 0;
+    padding: 10px 0 10px 18px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header .navbar .logo {
+    margin: 0;
+    padding: 10px 0 10px 18px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .header .navbar .logo {
+      margin: 0;
+      padding: 10px 0 10px 18px;
+      font-size: 25px;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+    .header .navbar .logo {
+      margin: 0;
+      padding: 10px 0 10px 18px;
+      font-size: 15px;
+    }
+
+    .header .navbar {
+        height: 35px;
+      }
+  }
+
+  @media screen and (max-width: 400px) {
+    .header .navbar .logo {
+      margin: 0;
+      padding: 10px 0 10px 10px;
+      font-size: 15px;
+    }
+
+    .header .navbar {
+        height: 28px;
+      }
+  }
+
+/***************************/
+/******* MAIN BODY *********/
+/***************************/
+
+.heading {
+  background-color: #009000;
+}
+
+.heading .hto {
+  font-size: 60px;
+  font-family: spartan;
+  margin: 0;
+  padding: 30px 0 0 30px;
+  color: white;
+}
+
+.heading .hto1 {
+  font-family: spartan;
+  font-size: 30px;
+  margin: 0;
+  padding: 10px 0 30px 30px;
+  color: white;
+}
+
+.main {
+  padding: 10px 0 30px 30px;
+  width: auto;
+  height: auto;
+}
+
+.menu {
+  width: 190px;
+  height: 50px;
+  margin-top: 15px;
+  padding: 4px 0 3px 20px;
+  background-color: #262626;
+  color: white;
+  font-size: 30px;
+  border-radius: 5%;
+}
+
+/******************************/
+/* MEDIA SCREEN FOR MAIN BODY */
+/******************************/
+
+@media screen and (max-width: 1400px) {
+  .heading .hto {
+    font-size: 40px;
+  }
+  .heading .hto1 {
+    margin: 0;
+    font-size: 18px;
+  }
+  .menu {
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .heading .hto {
+    font-size: 50px;
+  }
+  .heading .hto1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  .menu {
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .heading .hto {
+    font-size: 40px;
+  }
+  .heading .hto1 {
+    margin: 0;
+    font-size: 20px;
+  }
+  .menu {
+    width: 130px;
+    height: 33px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .heading .hto {
+      font-size: 35px;
+    }
+    .heading .hto1 {
+      margin: 0;
+      font-size: 14px;
+    }
+    .menu {
+        width: 115px;
+        height: 29px;
+        font-size: 17px;
+    }
+  }
+
+
+@media screen and (max-width: 500px) {
+    .heading .hto {
+      margin: 0;
+      padding: 15px 20px 0 20px;
+      font-size: 25px;
+      color: white;
+    }
+  
+    .heading .hto1 {
+        padding: 0px 7px 10px 20px;
+        font-size: 13px;
+    }
+
+    .menu {
+        width: 93px;
+    height: 25px;
+    font-size: 13px;
+    }
+  }
+
+@media screen and (max-width: 400px) {
+    
+    .main {
+        padding: 0px 0 0px 10px;
+        width: auto;
+        height: auto;
+      }
+
+    .heading .hto {
+      margin: 0;
+      padding: 15px 20px 0 10px;
+      font-size: 23px;
+      color: white;
+    }
+  
+    .heading .hto1 {
+        padding: 0px 7px 10px 10px;
+        font-size: 12px;
+    }
+
+    .menu {
+        width: 93px;
+    }
+  }
+
+/**************/
+/* FOOD ITEMS */
+/**************/
+
+ul.food-items {
+  list-style: none;
+  padding: 0;
+}
+
+ul.food-items li.row {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+ul.food-items li img.food-image {
+  width: 30%;
+  height: fit-content;
+}
+
+ul.lists {
+  list-style: none;
+  padding: 30px 0;
+}
+
+ul.lists li.parts a {
+  background-color: black;
+  color: white;
+}
+
+ul.food-items li .info {
+  width: 100%;
+  position: relative;
+  padding: 0% 3%;
+}
+
+ul.food-items li .name {
+  font-size: 56px;
+}
+
+ul.food-items li .info .like {
+  padding: 10px 0;
+  display: flex;
+}
+
+ul.food-items li .info .like img.like-button {
+  width: 88px;
+}
+
+ul.food-items li .info .like .count {
+  padding: 20px 15px 0 10px;
+  color: #009000;
+  font-size: 40px;
+}
+
+ul.food-items li .info .like button.link-button {
+  background-color: white;
+  border: 0;
+  padding-right: 15px;
+  font-size: 33px;
+  cursor: pointer;
+  color: #38a1ed;
+}
+
+ul.food-items li .info .info-bottom {
+  width: 80%;
+  margin-top: 65px;
+}
+
+ul.food-items li .info .info-bottom .price {
+  font-size: 60px;
+  font-family: "Spartan";
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.food-items li .info .info-bottom .add {
+  border: 0px solid black;
+  font-size: 45px;
+  color: white;
+  padding: 5px 25px 1px 25px;
+  font-family: "Spartan";
+  border-radius: 5px;
+  background-color: #009000;
+}
+
+/*******************************/
+/* MEDIA SCREEN FOR FOOD ITEMS */
+/*******************************/
+
+@media screen and (max-width: 1400px) {
+  ul.food-items li .name {
+    font-size: 40px;
+  }
+  ul.food-items li .info .like img.like-button {
+    width: 45px;
+  }
+  ul.food-items li .info .like .count {
+    padding: 20px 15px 0 10px;
+    font-size: 20px;
+  }
+  ul.food-items li .info .like button.link-button {
+    font-size: 25px;
+  }
+  ul.food-items li .info .info-bottom .price {
+    font-size: 45px;
+  }
+  ul.food-items li .info .info-bottom .add {
+    font-size: 30px;
+    float: right;
+    margin-right: 0px;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  ul.food-items li .name {
+    font-size: 45px;
+  }
+  ul.food-items li .info .like img.like-button {
+    width: 45px;
+  }
+  ul.food-items li .info .info-bottom {
+    width: 100%;
+    margin-top: 50px;
+  }
+  ul.food-items li .info .like .count {
+    padding: 20px 15px 0 10px;
+    font-size: 20px;
+  }
+  ul.food-items li .info .like button.link-button {
+    font-size: 25px;
+  }
+  ul.food-items li .info .info-bottom .price {
+    font-size: 40px;
+  }
+  ul.food-items li .info .info-bottom .add {
+    font-size: 28px;
+    float: right;
+    margin-right: 0px;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  ul.food-items li .name {
+    font-size: 35px;
+  }
+  ul.food-items li .info .like img.like-button {
+    width: 40px;
+  }
+  ul.food-items li .info .info-bottom {
+    width: 100%;
+    margin-top: 25px;
+  }
+  ul.food-items li .info .like .count {
+    padding: 12px 10px 0px 10px;
+    font-size: 18px;
+  }
+  ul.food-items li .info .like button.link-button {
+    font-size: 22px;
+  }
+  ul.food-items li .info .info-bottom .price {
+    font-size: 35px;
+  }
+  ul.food-items li .info .info-bottom .add {
+    font-size: 25px;
+    float: right;
+    margin-right: 5px;
+    width: 30%;
+    padding: 0px 0px 0 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    ul.food-items li .name {
+      font-size: 24px;
+    }
+    ul.food-items li .info .like img.like-button {
+      width: 28px;
+    }
+    ul.food-items li .info .info-bottom {
+      width: 100%;
+      margin-top: 13px;
+    }
+    ul.food-items li .info .like .count {
+        padding: 10px 4px 0px 7px;
+        font-size: 12px;
+    }
+    ul.food-items li .info .like button.link-button {
+      font-size: 14px;
+    }
+    ul.food-items li .info .info-bottom .price {
+      font-size: 35px;
+    }
+    ul.food-items li .info .info-bottom .add {
+        font-size: 16px;
+        padding: 4px 0px 0px 0px;
+        left: 60%;
+        width: 12vh;
+        height: 23px;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+      
+    ul.food-items li.row {
+        margin-bottom: 30px;
+      }
+
+    ul.food-items li .name {
+      font-size: 17px;
+    }
+
+    ul.food-items li .info .like {
+        padding: 8px 0;
+      }
+
+    ul.food-items li .info .like img.like-button {
+      width: 20px;
+    }
+    ul.food-items li .info .info-bottom {
+      width: 100%;
+      margin-top: 7px;
+    }
+    ul.food-items li .info .like .count {
+        padding: 14px 0px 0px 6px;
+        font-size: 8px;
+    }
+    ul.food-items li .info .like button.link-button {
+      font-size: 11px;
+    }
+    ul.food-items li .info .info-bottom .price {
+      font-size: 16px;
+    }
+    ul.food-items li .info .info-bottom .add {
+        font-size: 16px;
+        padding: 4px 0px 0px 0px;
+        left: 60%;
+        width: 12vh;
+        height: 23px;
+    }
+
+    
+  }
+
+
+  @media screen and (max-width: 400px) {
+
+    ul.food-items{
+        padding-bottom: 20px;
+    }
+      
+    ul.food-items li.row {
+        margin-bottom: 30px;
+      }
+
+    ul.food-items li .name {
+      font-size: 17px;
+    }
+
+    ul.food-items li .info .like {
+        padding: 5px 0;
+      }
+
+    ul.food-items li .info .like img.like-button {
+      width: 20px;
+    }
+    ul.food-items li .info .info-bottom {
+      width: 100%;
+      margin-top: 4px;
+    }
+  }
+
+/***********************/
+/********FOOTER*********/
+/***********************/
+
+footer {
+  padding: 6px 0;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid white;
+  width: 100%;
+  background-color: #dbf5ed;
+}
+
+
+footer .subtotal {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  margin-right: 12vh;
+}
+
+footer button {
+  margin-right: 40px;
+  background-color: #009000;
+  color: #fff;
+  border: 0px;
+  font-size: 18px;
+  font-family: "Spartan";
+  border-radius: 8% 12% 8% 12%;
+  cursor: pointer;
+  margin: 10 px;
+}
+
+/***************************/
+/* MEDIA SCREEN FOR FOOTER */
+/***************************/
+@media screen and (max-width: 1400px) {
+  footer .subtotal {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  footer button {
+    margin-right: 40px;
+    height: 50px;
+    font-size: 18px;
+    width: 22%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  footer .subtotal {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  footer button {
+    margin-right: 40px;
+    height: 50px;
+    font-size: 18px;
+    width: 22%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  footer .subtotal {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  footer button {
+    margin-right: 40px;
+    height: 50px;
+    font-size: 18px;
+    width: 22%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        padding: 6px 0;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: flex-end;
+        border: 1px solid white;
+        width: 100%;
+        background-color: #dbf5ed;
+      }
+
+    footer .subtotal {
+      font-size: 30px;
+      line-height: 45px;
+    }
+  
+    footer button {
+      margin-right: 40px;
+      height: 50px;
+      font-size: 18px;
+      width: 22%;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+    footer {
+        padding: 0px 0;
+        
+      }
+
+    footer .subtotal {
+        font-size: 20px;
+    line-height: 50px;
+    margin-right: 26px;
+    }
+  
+    footer button {
+        margin-right: 15px;
+        height: 41px;
+        margin-top: 5px;
+        font-size: 11px;
+        width: 33%;
+    }
+  }
